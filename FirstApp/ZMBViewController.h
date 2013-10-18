@@ -10,4 +10,8 @@
 
 @interface ZMBViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UISwitch *mySwitch;
+
+- (IBAction)logSwitchStatus:(id)sender;
+
 @end
